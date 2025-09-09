@@ -29,7 +29,7 @@ pip package manager
 
 Installation:
 # Clone the repository
-git clone https://github.com/yourusername/employee-salary-system.git
+git clone https://github.com/heli-sun/Employee-Salary-Management-System.git
 
 # Install dependencies
 pip install -r requirements.txt
