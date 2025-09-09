@@ -91,9 +91,9 @@ employee-salary-system/
 
 └── images/              # Screenshots directory (add your own)
 
-    ├── app-screenshot.png
+    ├── app-screenshot.png # App screenshots
 
-    └── chart-screenshot.png
+    └── chart-screenshot.png #Chart screenshots
 
 
 # How It Works
