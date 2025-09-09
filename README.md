@@ -2,9 +2,9 @@
 # Employee Salary Management System 
 A comprehensive desktop application built with Python and Tkinter for managing employee records and salaries with multi-currency support. Features a modern dark-themed interface with robust data management capabilities.
 
-https://img.shields.io/badge/Python-3.8%252B-blue
-https://img.shields.io/badge/GUI-Tkinter-green
-https://img.shields.io/badge/License-MIT-lightgrey
+1. https://img.shields.io/badge/Python-3.8%252B-blue
+2. https://img.shields.io/badge/GUI-Tkinter-green
+3. https://img.shields.io/badge/License-MIT-lightgrey
 
 
 # Features
@@ -22,20 +22,21 @@ Modern UI: Dark theme with professional styling and responsive design
 
 
 # Quick Start
-Prerequisites
+Prerequisites:
+
 Python 3.8+
 
 pip package manager
 
 
-## Installation
-# Clone the repository
+# Installation
+1. Clone the repository
 git clone https://github.com/heli-sun/Employee-Salary-Management-System.git
 
-# Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-# Run the application
+3. Run the application
 python employee_system.py
 
 
@@ -52,14 +53,15 @@ Visualize: Generate professional salary distribution charts
 
 
 # Keyboard Shortcuts
-Key	Function	Description
-1	Register Employee	Add new employee to system
-2	Set Salary	Assign salary with currency
-3	Edit Employee	Modify existing employee data
-4	Search Employee	Find employee by ID
-5	Show Table	Display all employees in table format
-6	Show Chart	Generate salary visualization chart
-7	Exit Program	Safely close the application
+Key	Function	Description:
+
+1.	Register Employee	Add new employee to system
+2.	Set Salary	Assign salary with currency
+3.	Edit Employee	Modify existing employee data
+4.	Search Employee	Find employee by ID
+5.	Show Table	Display all employees in table format
+6.	Show Chart	Generate salary visualization chart
+7.	Exit Program	Safely close the application
 
 
 # Built With
@@ -80,11 +82,17 @@ JSON - Data storage and persistence
 text
 employee-salary-system/
 ├── employee_system.py    # Main application logic
+
 ├── requirements.txt      # Python dependencies
+
 ├── README.md            # Project documentation
+
 ├── .gitignore           # Git ignore rules
+
 └── images/              # Screenshots directory (add your own)
+
     ├── app-screenshot.png
+
     └── chart-screenshot.png
 
 
@@ -115,12 +123,13 @@ currency_rates = {
 }
 
 
-## Modify UI Colors
-# Edit the color scheme in the code
-python
-# Change button colors
+# Modify UI Colors
+Change button colors:
+
 bg='#659aff'  # Primary blue
+
 bg='#3668c9'  # Darker blue
+
 bg='#003190'  # Navy blue
 
 
@@ -129,7 +138,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 # Troubleshooting
-Common Issues
+Common Issues:
+
 Import errors: Ensure all dependencies are installed:
 
 
