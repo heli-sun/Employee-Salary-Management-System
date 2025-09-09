@@ -1,4 +1,5 @@
-Employee Salary Management System 
+
+# Employee Salary Management System 
 A comprehensive desktop application built with Python and Tkinter for managing employee records and salaries with multi-currency support. Features a modern dark-themed interface with robust data management capabilities.
 
 https://img.shields.io/badge/Python-3.8%252B-blue
@@ -6,7 +7,7 @@ https://img.shields.io/badge/GUI-Tkinter-green
 https://img.shields.io/badge/License-MIT-lightgrey
 
 
- Features:
+# Features
 Employee Management: Register, edit, and search employees with validation
 
 Multi-Currency Support: 7 currencies with automatic USD conversion ($, €, £, ¥, ₽, ₹, ﷼)
@@ -20,14 +21,14 @@ Keyboard Shortcuts: Quick access to all functions (1-7 keys)
 Modern UI: Dark theme with professional styling and responsive design
 
 
- Quick Start:
+# Quick Start
 Prerequisites
 Python 3.8+
 
 pip package manager
 
 
-Installation:
+## Installation
 # Clone the repository
 git clone https://github.com/heli-sun/Employee-Salary-Management-System.git
 
@@ -38,7 +39,7 @@ pip install -r requirements.txt
 python employee_system.py
 
 
- How to Use:
+# How to Use
 Register Employees: Add new employees with details (Name, ID, Position)
 
 Set Salaries: Assign salaries in different currencies with automatic USD conversion
@@ -50,7 +51,7 @@ View Data: See all employees in a formatted, sortable table
 Visualize: Generate professional salary distribution charts
 
 
-Keyboard Shortcuts:
+# Keyboard Shortcuts
 Key	Function	Description
 1	Register Employee	Add new employee to system
 2	Set Salary	Assign salary with currency
@@ -61,7 +62,7 @@ Key	Function	Description
 7	Exit Program	Safely close the application
 
 
- Built With:
+# Built With
 Python - Core programming language
 
 Tkinter - GUI framework for desktop application
@@ -75,7 +76,7 @@ NumPy - Numerical operations for calculations
 JSON - Data storage and persistence
 
 
- Project Structure:
+# Project Structure
 text
 employee-salary-system/
 ├── employee_system.py    # Main application logic
@@ -87,7 +88,7 @@ employee-salary-system/
     └── chart-screenshot.png
 
 
- How It Works:
+# How It Works
 The application uses several key technologies:
 
 Tkinter GUI: Creates a responsive desktop interface with custom styling
@@ -101,7 +102,7 @@ JSON Storage: Automatic saving and loading of employee data
 Matplotlib Integration: Professional data visualization within the application
 
 
- Customization:
+# Customization
 Add New Currencies
 python
 currency_rates = { 
@@ -114,8 +115,8 @@ currency_rates = {
 }
 
 
-Modify UI Colors
-Edit the color scheme in the code:
+## Modify UI Colors
+# Edit the color scheme in the code
 python
 # Change button colors
 bg='#659aff'  # Primary blue
@@ -123,25 +124,25 @@ bg='#3668c9'  # Darker blue
 bg='#003190'  # Navy blue
 
 
- License:
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
- Troubleshooting:
+# Troubleshooting
 Common Issues
 Import errors: Ensure all dependencies are installed:
 
 
-pip install -r requirements.txt
+1. pip install -r requirements.txt
 Matplotlib issues:
 
 
-python -m pip install --upgrade matplotlib
+2. python -m pip install --upgrade matplotlib
 Tkinter missing (Linux systems):
 
 
-sudo apt-get install python3-tk
+3. sudo apt-get install python3-tk
 Application won't start: Check Python version (requires 3.8+)
 
-Data Persistence
+# Data Persistence
 The application automatically creates an employee_data.json file to store all information between sessions.
